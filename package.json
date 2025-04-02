@@ -1,0 +1,24 @@
+{
+    "name": "beamable-bot",
+    "version": "1.0.0",
+    "description": "Beamable Network 自动化工具",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "daily": "node src/index.js --daily-only",
+        "once": "node src/index.js --no-loop"
+    },
+    "keywords": [
+        "beamable",
+        "automation",
+        "bot"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "https-proxy-agent": "^7.0.4",
+        "node-fetch": "^3.3.2"
+    }
+}
